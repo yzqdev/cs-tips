@@ -10,5 +10,5 @@ export default sidebar({
   "/python-tip/": "structure",
   "/csharp-tip/": "structure",
 
-
+  "/android/": "structure",
 });
