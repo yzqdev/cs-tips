@@ -1,33 +1,33 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
+import { hopeTheme } from 'vuepress-theme-hope'
+import navbar from './navbar'
+import sidebar from './sidebar'
 
 export default hopeTheme({
-    logo: "/images/logo.png",
+  logo: '/images/logo.png',
 
-    repo: "yzqdev/cs-tips",
+  repo: 'yzqdev/cs-tips',
 
-    docsDir: "docs",
-    iconPrefix: "iconfont icon-",
-    // theme-level locales config
+  docsDir: 'docs',
+  iconPrefix: 'iconfont icon-',
+  // theme-level locales config
 
-    // navbar
-    navbar: navbar,
+  // navbar
+  navbar: navbar,
 
-    // sidebar
-    sidebar: sidebar,
-    footer: `powered by <a href='https://vuepress-theme-hope.github.io/v2/'>vuepress-theme-home</a>`,
+  // sidebar
+  sidebar: sidebar,
+  footer: `powered by <a href='https://vuepress-theme-hope.github.io/v2/'>vuepress-theme-home</a>`,
 
-    displayFooter: true,
-    // page meta
+  displayFooter: true,
+  // page meta
 
-    // custom containers
+  // custom containers
 
-    // 404 page
-    // a11y
-    plugins:{
-        mdEnhance:{
-            codetabs:true
-        }
-    }
-});
+  // 404 page
+  // a11y
+  plugins: {
+    mdEnhance: {
+      codetabs: true,
+    },
+  },
+})

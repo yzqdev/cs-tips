@@ -9,7 +9,7 @@ export default navbar([
 
   { text: 'python', icon: 'python', link: '/python-tip/' },
   { text: 'c#', icon: 'csharp', link: '/csharp-tip/' },
-   { text: '安卓', icon: 'android', link: '/android/' },
+  { text: '安卓', icon: 'android', link: '/android/' },
 
   {
     text: '其他',
