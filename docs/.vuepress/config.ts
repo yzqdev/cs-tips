@@ -1,5 +1,5 @@
 import { defineUserConfig } from '@vuepress/cli'
-import { searchPlugin } from '@vuepress/plugin-search'
+import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import theme from './themeConfig'
 export default defineUserConfig({
   base: '/cs-tips/',
@@ -48,5 +48,7 @@ export default defineUserConfig({
 
   theme: theme,
 
-  plugins: [searchPlugin],
+  plugins: [searchProPlugin({
+    indexContent:true
+  })],
 })
