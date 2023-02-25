@@ -26,6 +26,10 @@ export default hopeTheme({
   // 404 page
   // a11y
   plugins: {
+    prismjs: {
+      light: 'tomorrow',
+      dark: 'tomorrow',
+    },
     mdEnhance: {
       codetabs: true,
     },
