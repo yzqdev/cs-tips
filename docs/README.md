@@ -7,7 +7,7 @@ actions:
     link: /frontend/
     type: primary
   - text: golang
-    link: /go-tips/
+    link: /go-tip/
     type: secondary
    
 features:
