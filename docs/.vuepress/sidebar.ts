@@ -11,4 +11,5 @@ export default sidebar({
   '/csharp-tip/': 'structure',
 
   '/android/': 'structure',
+  '/shell/': 'structure',
 })

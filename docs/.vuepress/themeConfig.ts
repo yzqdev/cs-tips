@@ -1,4 +1,4 @@
-import { hopeTheme } from 'vuepress-theme-hope'
+import { hopeTheme } from 'vuepress-theme-hope/perf'
 import navbar from './navbar'
 import sidebar from './sidebar'
 
@@ -30,8 +30,42 @@ export default hopeTheme({
       light: 'tomorrow',
       dark: 'tomorrow',
     },
+    components: {
+      components: ['BiliBili', 'PDF', 'StackBlitz'],
+    },
     mdEnhance: {
+      tabs: true,
       codetabs: true,
+      demo: true,
+      sub: true,
+      sup: true,
+      footnote: true,
+      mark: true,
+      vuePlayground: true,
+
+      //start playground 配置
+      playground: {
+        presets: [
+          'ts',
+          'vue',
+          {
+            name: 'playground#language',
+            component: 'PlaygroundComponent',
+            propsGetter: (playgroundData): Record<string, string> => ({
+              // playground props
+            }),
+          },
+        ],
+        config: {
+          ts: {
+            // ...
+          },
+          vue: {
+            // ...
+          },
+        },
+      },
+      //end playground 配置
     },
   },
-})
+},true)

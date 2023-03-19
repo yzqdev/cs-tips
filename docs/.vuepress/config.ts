@@ -1,4 +1,5 @@
 import { defineUserConfig } from '@vuepress/cli'
+import { path } from '@vuepress/utils'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import theme from './themeConfig'
 export default defineUserConfig({
@@ -45,10 +46,20 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'cs tips',
   description: 'cs tips',
+  markdown: {
+    headers: {
+      level: [2, 5],
+    },
 
+    importCode: {
+      handleImportPath: (str) => str.replace(/^@/, path.resolve(__dirname, './')),
+    },
+  },
   theme: theme,
 
-  plugins: [searchProPlugin({
-    indexContent:true
-  })],
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+    }),
+  ],
 })

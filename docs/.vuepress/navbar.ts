@@ -3,6 +3,7 @@ import { navbar } from 'vuepress-theme-hope'
 export default navbar([
   { text: '前端', icon: 'html', link: '/frontend/' },
   { text: '工具', icon: 'tool', link: '/tool/' },
+  { text: 'powershell', icon: 'study', link: '/shell/' },
 
   { text: 'go', icon: 'go', link: '/go-tip/' },
   { text: 'java', icon: 'java', link: '/java-tip/' },
