@@ -143,6 +143,8 @@ allprojects {
 }
 ```
 
+## 仓库配置
+
 安卓gradlekts必须这样写
 
 ```kotlin
