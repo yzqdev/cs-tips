@@ -1,0 +1,1 @@
+import{_ as a,Y as t,Z as n,a1 as e,a2 as c}from"./framework-ae46ee38.js";const r={},s=e("h1",{id:"uniapp技巧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#uniapp技巧","aria-hidden":"true"},"#"),c(" uniapp技巧")],-1),o=[s];function i(_,p){return t(),n("div",null,o)}const u=a(r,[["render",i],["__file","uniapp1.html.vue"]]);export{u as default};
