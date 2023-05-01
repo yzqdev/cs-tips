@@ -1,4 +1,4 @@
-import { hopeTheme } from 'vuepress-theme-hope/perf'
+import { hopeTheme } from 'vuepress-theme-hope'
 import navbar from './navbar'
 import sidebar from './sidebar'
 
@@ -10,7 +10,7 @@ export default hopeTheme({
   docsDir: 'docs',
   iconPrefix: 'iconfont icon-',
   // theme-level locales config
-
+pcBreakPoint:1600,
   // navbar
   navbar: navbar,
 
@@ -68,4 +68,4 @@ export default hopeTheme({
       //end playground 配置
     },
   },
-},true)
+},{custom:true})

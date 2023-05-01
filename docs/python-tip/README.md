@@ -1,1 +1,2 @@
 # python tip
+<AutoCatalog   />

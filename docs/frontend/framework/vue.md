@@ -16,7 +16,7 @@
 
 ### 定义重置方法
 
-```
+```ts
 const resetData = () => {
   const keys = Object.keys(dialogModel)
   let obj: { [name: string]: string } = {}
@@ -27,7 +27,7 @@ const resetData = () => {
 };
 ```
 
-```
+```ts
 const initData:AddDeptModel = {
     type: "",
     id: "",
@@ -50,7 +50,7 @@ const resetDialogModel = () =>{
 
 或者
 
-```
+```ts
 const initialState = {
   name: "",
   lastName: "",
